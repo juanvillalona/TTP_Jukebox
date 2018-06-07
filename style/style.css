@@ -1,0 +1,41 @@
+#container {
+	margin: 0 auto;
+	text-align: center;
+	width: 500px;
+	border-style: solid;
+	border-radius: 60px;
+	border-color: blue;
+	padding: 20px;
+}
+
+#audioPlayer {
+	width: 400px;
+	margin: 0 auto;
+
+}
+
+#play, #pause, #next, #previous{
+	width: 80px;
+	height: 50px;
+	border-radius: 5px;
+	color: blue;
+}
+
+
+
+.vertical-menu a {
+    background-color: #eee; /* Grey background color */
+    color: black; /* Black text color */
+    display: block; /* Make the links appear below each other */
+    padding: 12px; /* Add some padding */
+    text-decoration: none; /* Remove underline from links */
+}
+
+.vertical-menu a:hover {
+    background-color: #ccc; /* Dark grey background on mouse-over */
+}
+
+.vertical-menu a.active {
+    background-color: #4CAF50; /* Add a green color to the "active/current" link */
+    color: white;
+} 
